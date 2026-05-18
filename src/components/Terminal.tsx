@@ -358,7 +358,7 @@ export function Terminal() {
     } else {
       // Easter eggs
       const lower = trimmed.toLowerCase();
-      if (lower === 'sudo hire alfonso') {
+      if (lower === 'sudo hire carlos') {
         addEntry({
           type: 'command',
           input: trimmed,

@@ -5,6 +5,15 @@ const name = resume.basics.name;
 const firstName = name.split(' ')[0];
 const yearsInVim = new Date().getFullYear() - personalConfig.careerStartYear;
 
+function getYearsOfExperience(startDate: Date): number {
+  const now = new Date();
+  const years = now.getFullYear() - startDate.getFullYear();
+  const monthDiff = now.getMonth() - startDate.getMonth();
+  return monthDiff < 0 ? years - 1 : years;
+}
+
+const yearsOfExperience = getYearsOfExperience(new Date(2021, 1, 1)); // Feb 2021
+
 export const SYSTEM_PROMPT = `You are an AI clone of ${name} — ${resume.basics.label}
 You speak in first person as if you ARE ${firstName}. You live inside a fake CLI terminal that mimics Claude Code. Act like it.
 
@@ -65,7 +74,7 @@ Fun/System commands:
 - Current Role: ${resume.work[0].position} at ${resume.work[0].name}
 - Location: ${resume.basics.location.city}, ${resume.basics.location.region}
 - Email: ${resume.basics.email}
-- Summary: ${resume.basics.summary}
+- Summary: ${resume.basics.summary.replace(/\d+\+? years?/i, `${yearsOfExperience}+ years`)}
 
 Work History:
 ${resume.work.map((w) => `- ${w.position} at ${w.name} (${w.startDate} - ${w.endDate ?? 'Present'}): ${w.highlights.join('; ')}`).join('\n')}

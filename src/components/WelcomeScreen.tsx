@@ -62,7 +62,7 @@ export function WelcomeScreen({ currentModelIndex = 0 }: WelcomeScreenProps) {
             {/* Left panel */}
             <div className="flex-1 p-3 flex flex-col items-center justify-center gap-2">
               <div className="font-bold" style={{ color: colors.text }}>
-                Welcome, stranger!
+                Welcome, curious visitor!
               </div>
 
               <ClawdArt />
