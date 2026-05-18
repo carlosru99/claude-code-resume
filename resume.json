@@ -1,0 +1,120 @@
+{
+  "basics": {
+    "name": "Carlos Ruiz Torres",
+    "label": "Data Engineer at Ryanair",
+    "email": "carlosru0022@gmail.com",
+    "phone": "+34684021763",
+    "url": "https://linkedin.com/in/carlos-ruiz-torres",
+    "summary": "Data Engineer with 5+ years of experience building scalable ELT pipelines, lakehouse architectures, and cloud-native data solutions. Currently at Ryanair, leading analytics engineering and AI integration into data workflows. Passionate about data quality, semantic layers, and cutting repetitive work with AI-driven processes.",
+    "location": {
+      "city": "Madrid",
+      "countryCode": "ES",
+      "region": "Community of Madrid"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "carlos-ruiz-torres",
+        "url": "https://linkedin.com/in/carlos-ruiz-torres"
+      },
+      {
+        "network": "GitHub",
+        "username": "carlosruiztorres",
+        "url": "https://github.com/carlosruiztorres"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Ryanair",
+      "position": "Data Engineer",
+      "url": "https://www.ryanair.com",
+      "startDate": "2025-04-01",
+      "endDate": null,
+      "summary": null,
+      "highlights": [
+        "Build and maintain ELT pipelines (Apache Airflow, dbt) and scalable data models in Databricks lakehouse, leveraging PySpark, Spark SQL, and Python for optimized query performance.",
+        "Led analytics engineering end-to-end — semantic layer design, data contract implementation, and cross-functional alignment — improving data reliability and accelerating time-to-insight.",
+        "Architect AWS solutions and own the full deployment lifecycle through IaC (Terraform, CloudFormation) and automated CI/CD pipelines via AWS CodePipeline.",
+        "Spearheaded AI integration into engineering and data analytics workflows, enabling the team to cut repetitive task time by over 60% through scalable, reusable AI-driven processes.",
+        "Collaborated closely with data scientists to improve the performance of the dynamic pricing model for products by over 50%."
+      ]
+    },
+    {
+      "name": "NEXT DIGITAL HUB",
+      "position": "Cloud Data Engineer",
+      "url": "https://nextdigitalhub.com",
+      "startDate": "2022-08-01",
+      "endDate": "2025-04-01",
+      "summary": null,
+      "highlights": [
+        "Developed and optimized end-to-end ELT processes using AWS Cloud (S3, Redshift, RDS, Lambda, AWS Batch on Fargate).",
+        "Implemented Data Mesh Architecture to enhance data accessibility and collaboration, significantly improving cross-team operational efficiency.",
+        "Built efficient Python-based data processing pipelines to enhance data quality and system performance.",
+        "Automated complex workflows using Apache Airflow to reduce manual intervention."
+      ]
+    },
+    {
+      "name": "StratioBD",
+      "position": "Big Data Engineer",
+      "url": "https://www.stratio.com",
+      "startDate": "2021-06-01",
+      "endDate": "2022-08-01",
+      "summary": null,
+      "highlights": [
+        "Performed and managed ETL processes using the Stratio Data Centric product and end-to-end batch workflows with Apache Spark, PostgreSQL, and Apache Kafka, handling high-volume real-time data streams.",
+        "Designed and created interactive Metabase dashboards to provide actionable business insights for stakeholders.",
+        "Ensured Data Governance best practices through rigorous data quality controls and metadata management.",
+        "Managed projects with Jira applying Scrum methodology to ensure timely delivery of data products."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universitat Politècnica de València (UPV)",
+      "area": "Computer Science",
+      "studyType": "Bachelor's degree",
+      "startDate": "2017-09-01",
+      "endDate": "2021-06-01"
+    }
+  ],
+  "certificates": [],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["Python", "SQL", "PySpark", "Spark SQL"]
+    },
+    {
+      "name": "Frameworks",
+      "keywords": ["dbt", "Apache Spark"]
+    },
+    {
+      "name": "Databases & Storage",
+      "keywords": ["Databricks", "Redshift", "PostgreSQL", "NoSQL", "S3", "RDS"]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "keywords": ["AWS", "Terraform", "Docker", "Kubernetes", "CloudFormation", "Lambda", "Fargate"]
+    },
+    {
+      "name": "Orchestration & Pipelines",
+      "keywords": ["Apache Airflow", "AWS CodePipeline", "GitLab CI", "GitHub Actions", "Apache Kafka"]
+    },
+    {
+      "name": "Analytics & BI",
+      "keywords": ["Power BI", "Metabase"]
+    },
+    {
+      "name": "Practices",
+      "keywords": ["ELT", "ETL", "Data Modeling", "Lakehouse Architecture", "IaC", "Data Mesh", "CI/CD", "Data Governance", "Scrum", "Agile", "Semantic Layer", "Prompt Engineering"]
+    }
+  ],
+  "languages": [
+    { "language": "Spanish", "fluency": "Native" },
+    { "language": "English", "fluency": "Advanced" },
+    { "language": "French", "fluency": "B2" }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": []
+}

@@ -3,7 +3,7 @@ import { CommandDefinition } from './types';
 export const commands: CommandDefinition[] = [
   // Content commands
   { name: '/help', aliases: ['/h', '/?'], description: 'List all available commands', category: 'content' },
-  { name: '/about', aliases: ['/summary', '/whoami'], description: 'About Alfonso — summary & role', category: 'content' },
+  { name: '/about', aliases: ['/summary', '/whoami'], description: 'About Carlos — summary & role', category: 'content' },
   { name: '/experience', aliases: ['/work', '/exp'], description: 'Work history timeline', category: 'content' },
   { name: '/skills', aliases: ['/tech', '/stack'], description: 'Technical skills & toolkit', category: 'content' },
   { name: '/education', aliases: ['/edu'], description: 'Education background', category: 'content' },
