@@ -20,7 +20,7 @@
       {
         "network": "GitHub",
         "username": "carlosruiztorres",
-        "url": "https://github.com/carlosruiztorres"
+        "url": "https://github.com/carlosru99"
       }
     ]
   },
@@ -78,7 +78,43 @@
       "endDate": "2021-06-01"
     }
   ],
-  "certificates": [],
+  "certificates": [
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "date": "2025-02",
+      "issuer": "Amazon Web Services (AWS)"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "date": "2024-01",
+      "issuer": "Amazon Web Services (AWS)"
+    },
+    {
+      "name": "HashiCorp Certified: Terraform Associate (003)",
+      "date": "2024-09",
+      "issuer": "HashiCorp"
+    },
+    {
+      "name": "Astronomer Certification DAG Authoring for Apache Airflow 3",
+      "date": "2025-09",
+      "issuer": "Astronomer"
+    },
+    {
+      "name": "Astronomer Certification for Apache Airflow Fundamentals",
+      "date": "2022-11",
+      "issuer": "Astronomer"
+    },
+    {
+      "name": "dbt Fundamentals",
+      "date": "2022-09",
+      "issuer": "dbt Labs"
+    },
+    {
+      "name": "Professional Scrum Master™ I (PSM I)",
+      "date": "2023-10",
+      "issuer": "Scrum.org"
+    }
+  ],
   "skills": [
     {
       "name": "Languages",

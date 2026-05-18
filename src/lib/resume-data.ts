@@ -37,7 +37,8 @@ export interface ResumeEducation {
 export interface ResumeCertificate {
   name: string;
   issuer: string;
-  url: string;
+  date?: string;
+  url?: string;
 }
 
 export interface ResumeSkill {

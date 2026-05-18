@@ -59,7 +59,7 @@ export default function Home() {
         href="/terminal"
         className="fixed top-5 left-5 z-50 flex items-center gap-2 px-4 py-2 rounded-full border border-[#d1d1d1] bg-white text-[#1a1a1a] text-sm font-mono no-underline hover:border-[#999] transition-colors shadow-sm"
       >
-        <img src="https://media1.tenor.com/m/oB-P5dO_NMkAAAAd/claude-claude-ai.gif" alt="" className="w-8 h-8 rounded object-cover -mt-2" />
+        <img src="https://media1.tenor.com/m/oB-P5dO_NMkAAAAd/claude-claude-ai.gif" alt="" className="w-12 h-12 rounded object-cover" />
         Funnier version ↗
       </Link>
 
