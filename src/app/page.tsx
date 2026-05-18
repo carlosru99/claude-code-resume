@@ -79,6 +79,16 @@ export default function Home() {
           {/* Contact icons */}
           <div className="flex justify-center gap-3">
             <a
+              href="tel:+34684021763"
+              className="flex items-center justify-center gap-2 px-3 h-11 border border-[#d1d1d1] rounded-lg no-underline hover:border-[#999] transition-colors text-[#444]"
+              title="+34 684 021 763"
+            >
+              <svg viewBox="0 0 24 24" className="w-4 h-4 shrink-0" fill="#1a1a1a" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+              </svg>
+              <span className="text-xs font-mono">+34 684 021 763</span>
+            </a>
+            <a
               href="mailto:carlosru0022@gmail.com"
               className="flex items-center justify-center w-11 h-11 border border-[#d1d1d1] rounded-lg no-underline hover:border-[#999] transition-colors"
               title="Gmail"
