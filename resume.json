@@ -82,22 +82,26 @@
     {
       "name": "AWS Certified Solutions Architect – Associate",
       "date": "2025-02",
-      "issuer": "Amazon Web Services (AWS)"
+      "issuer": "Amazon Web Services (AWS)",
+      "url": "https://www.credly.com/earner/earned/badge/34a8d786-79b3-45a0-a52f-75c07ea2448f"
     },
     {
       "name": "AWS Certified Cloud Practitioner",
       "date": "2024-01",
-      "issuer": "Amazon Web Services (AWS)"
+      "issuer": "Amazon Web Services (AWS)",
+      "url": "https://www.credly.com/earner/earned/badge/efc51886-456a-4342-8570-e78b3ab3754e"
     },
     {
       "name": "HashiCorp Certified: Terraform Associate (003)",
       "date": "2024-09",
-      "issuer": "HashiCorp"
+      "issuer": "HashiCorp",
+      "url": "https://www.credly.com/earner/earned/badge/cfce1185-24a6-45d5-b48d-1e83a7b0d1e1"
     },
     {
       "name": "Astronomer Certification DAG Authoring for Apache Airflow 3",
       "date": "2025-09",
-      "issuer": "Astronomer"
+      "issuer": "Astronomer",
+      "url": "https://www.credly.com/earner/earned/badge/af6effbb-b209-4a23-b556-9404826792dd"
     },
     {
       "name": "Astronomer Certification for Apache Airflow Fundamentals",
@@ -112,7 +116,8 @@
     {
       "name": "Professional Scrum Master™ I (PSM I)",
       "date": "2023-10",
-      "issuer": "Scrum.org"
+      "issuer": "Scrum.org",
+      "url": "https://www.credly.com/earner/earned/badge/3319d6b7-f56d-4da5-ba77-8f2e3303e824"
     }
   ],
   "skills": [

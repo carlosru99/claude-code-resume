@@ -60,6 +60,66 @@ body {
   border-radius: 3px;
 }
 
+/* ── Print styles ── */
+@media print {
+  @page {
+    margin: 0;
+    size: A4;
+  }
+
+  body {
+    padding: 1cm 1.8cm;
+    background: white !important;
+    color: #1a1a1a !important;
+    font-size: 11px !important;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  /* Compact main container */
+  main {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  /* Compact header */
+  header {
+    margin-bottom: 1rem !important;
+  }
+
+  /* Fix contact buttons: single row, no wrap, smaller */
+  header .flex.justify-center {
+    flex-wrap: nowrap !important;
+    gap: 0.4rem !important;
+  }
+
+  header .flex.justify-center a {
+    height: auto !important;
+    width: auto !important;
+    padding: 0.25rem 0.5rem !important;
+    font-size: 10px !important;
+  }
+
+  /* Compact sections */
+  section {
+    margin-bottom: 0.75rem !important;
+  }
+
+  h1 { font-size: 1.6rem !important; margin-bottom: 0.3rem !important; }
+  h2 { font-size: 1rem !important; margin-bottom: 0.4rem !important; }
+
+  /* Compact experience items */
+  .space-y-10 > * + * { margin-top: 0.6rem !important; }
+  .space-y-2  > * + * { margin-top: 0.2rem !important; }
+
+  hr { margin-bottom: 0.75rem !important; margin-top: 0 !important; }
+
+  p { margin-bottom: 0 !important; }
+}
+
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-prompt-border);
 }

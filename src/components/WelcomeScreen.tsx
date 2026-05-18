@@ -4,6 +4,15 @@ import { colors } from '@/lib/colors';
 import { siteConfig } from '@/config/site';
 import { careerModels } from './commands/Models';
 import { personalConfig } from '@/config/personal';
+import { resume } from '@/lib/resume-data';
+
+const issuerColors: Record<string, string> = {
+  'Amazon Web Services (AWS)': '#FF9900',
+  HashiCorp: '#7B42BC',
+  Astronomer: '#017CEE',
+  'dbt Labs': '#FF694B',
+  'Scrum.org': '#009FDA',
+};
 
 interface WelcomeScreenProps {
   currentModelIndex?: number;
@@ -123,6 +132,34 @@ export function WelcomeScreen({ currentModelIndex = 0 }: WelcomeScreenProps) {
                 </div>
               ))}
             </div>
+          </div>
+
+          {/* Certifications row */}
+          <div className="p-3" style={{ borderTop: `1px solid ${colors.inactive}` }}>
+            <span className="font-bold mr-3" style={{ color: colors.brand }}>
+              Certifications
+            </span>
+            <span className="flex flex-wrap gap-x-3 gap-y-0.5 mt-1">
+              {resume.certificates.map((cert, i) => (
+                <span key={i} className="flex items-center gap-1">
+                  <span style={{ color: issuerColors[cert.issuer] ?? colors.success }}>▪</span>
+                  {cert.url ? (
+                    <a
+                      href={cert.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: colors.text, textDecoration: 'none' }}
+                      className="hover:underline"
+                    >
+                      {cert.name}
+                    </a>
+                  ) : (
+                    <span style={{ color: colors.text }}>{cert.name}</span>
+                  )}
+                  <span style={{ color: colors.inactive }}>({cert.issuer})</span>
+                </span>
+              ))}
+            </span>
           </div>
 
           {/* Mobile tips */}
